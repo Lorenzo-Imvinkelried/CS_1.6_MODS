@@ -1,0 +1,33 @@
+# Ignore all base CS 1.6 files, executables, textures, and models
+/*
+
+# Allow documentation and git config
+!/README.md
+!/.gitignore
+
+# Allow custom mods in cstrike/addons/amxmodx/
+!/cstrike/
+/cstrike/*
+
+!/cstrike/addons/
+/cstrike/addons/*
+
+!/cstrike/addons/amxmodx/
+/cstrike/addons/amxmodx/*
+
+# Mod binary plugins (.amxx)
+!/cstrike/addons/amxmodx/plugins/
+/cstrike/addons/amxmodx/plugins/*
+!/cstrike/addons/amxmodx/plugins/boss_mod.amxx
+!/cstrike/addons/amxmodx/plugins/crazy_powers.amxx
+!/cstrike/addons/amxmodx/plugins/wave_survival.amxx
+
+# Mod source codes (.sma) and compile scripts (.bat)
+!/cstrike/addons/amxmodx/scripting/
+/cstrike/addons/amxmodx/scripting/*
+!/cstrike/addons/amxmodx/scripting/boss_mod.sma
+!/cstrike/addons/amxmodx/scripting/crazy_powers.sma
+!/cstrike/addons/amxmodx/scripting/wave_survival.sma
+!/cstrike/addons/amxmodx/scripting/compilar_boss.bat
+!/cstrike/addons/amxmodx/scripting/compilar_crazy.bat
+!/cstrike/addons/amxmodx/scripting/compilar_wave.bat
